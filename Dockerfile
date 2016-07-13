@@ -15,7 +15,7 @@ WORKDIR /opt/elasticsearch-2.3.4/config
 
 #删除elasticsearch.yml
 RUN rm -rf elasticsearch.yml\
-    && wget https://github.com/caizhenzhen2010/elasticsearch_client/blob/master/elasticsearch.yml
+    && wget https://github.com/caizhenzhen2010/elasticsearch_master/blob/master/elasticsearch.yml
 
 #绑定端口
 EXPOSE 9200 9300
